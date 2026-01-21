@@ -47,24 +47,25 @@
     </style>
 </head>
 <body>
-<style>
-    .btn-retour {
-        display: inline-block;
-        margin: 10px;
-        padding: 8px 15px;
-        background-color: #2c3e50;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-family: sans-serif;
-        font-weight: bold;
-        transition: 0.3s;
-    }
-    .btn-retour:hover {
-        background-color: #34495e;
-        transform: scale(1.05);
-    }
-</style>
+.links a {
+    display: block;
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Animation fluide */
+    border: 2px solid #2c3e50;
+}
+
+.links a:hover {
+    background-color: #2c3e50;
+    color: #ffffff;
+    transform: translateY(-3px); /* Le bouton monte un peu */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Ombre portée */
+}
 
 <a href="index.html" class="btn-retour">← Retour au Hub</a>
     <div class="menu-toggle" onclick="toggleMenu()">☰</div>
@@ -91,6 +92,7 @@
     </script>
 </body>
 </html>
+
 
 
 
