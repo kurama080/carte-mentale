@@ -8,6 +8,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 <body>
+    <style>
+    .btn-retour {
+        display: inline-block;
+        margin: 10px;
+        padding: 8px 15px;
+        background-color: #2c3e50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .btn-retour:hover {
+        background-color: #34495e;
+        transform: scale(1.05);
+    }
+</style>
+
+<a href="index.html" class="btn-retour">← Retour au Hub</a>
     <div id="controls">
         <button onclick="resetMap()" style="background:#e74c3c; color:white;">Réinitialiser</button>
         <button onclick="exportToImage()" style="background:#27ae60; color:white;">Télécharger PNG</button>
@@ -22,3 +42,4 @@
 </body>
 
 </html>
+
